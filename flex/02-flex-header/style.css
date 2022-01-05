@@ -1,6 +1,8 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
@@ -11,7 +13,7 @@
   padding: 4px 32px;
   display: flex;
   justify-content: center;
-
+  
 }
 
 ul {
@@ -25,6 +27,7 @@ ul {
 .left-links{
   display: flex;
   justify-content: left;
+ 
 
 
 }
@@ -33,8 +36,9 @@ ul {
   display: flex;
   justify-content: right;
 
-
 }
+
+
 
 a {
   font-size: 22px;
